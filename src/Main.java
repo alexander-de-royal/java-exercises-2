@@ -1,7 +1,55 @@
 // Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 
+// SECTION FIFTEEN STRING METHODS
+public class Main {
+    public static void main(String[] args) {
+        String name = "Bro";
+        boolean result = name.equals("Bro");
+    }
+}
+// SECTION FOURTEEN 2D ARRAYS
+//public class Main {
+//    public static void main(String[] args) {
+//
+//        String[][] cars = new String[3][3];
+//
+//        cars[0][0] = "camaro";
+//        cars[0][1] = "corvette";
+//        cars[0][2] = "silverado";
+//        cars[1][0] = "mustang";
+//        cars[1][1] = "porch";
+//        cars[1][2] = "ranger";
+//        cars[2][0] = "tesla";
+//        cars[2][1] = "nio";
+//        cars[2][2] = "ev";
+//
+//        for (int i = 0; i < cars.length; i++){
+//            System.out.println();
+//            for (int j = 0; j <cars[i].length; j++){
+//                System.out.println(cars[i][j]);
+//            }
+//        }
+//
+//    }
+//}
 
+// SECTION THIRTEEN FOR ARRAYS
+//public class Main {
+//    public static void main(String[] args) {
+//
+//        String[] cars = new String[3];
+//        cars[0] = "Camaro";
+//        cars[1] = "Corvette";
+//        cars[2] = "Tesla";
+//
+//        System.out.println(cars[2]);
+//
+//        for (int i = 0; i < cars.length; i++){
+//            System.out.println(cars[i]);
+//        }
+//    }
+//}
 
 // SECTION TWELVE FOR NESTED LOOPS
 //import java.util.Scanner;

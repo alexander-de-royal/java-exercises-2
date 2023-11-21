@@ -265,3 +265,50 @@
 //        Distributed applications are used for the purpose of exchanging data from one application to another application
 
 
+//        LECTURE 6
+
+        /* Reserved keyword is a reserve keyword such as
+        * class, public, static, void, if, else, switch, while, do, for, break, continue, try, catch,
+        * private, default etc.
+        *
+        * Variable
+        * A variable is an identifier which allocates some memory space
+        * Rules for Identifiers (variable name/method name/ class name)
+        * - can contain A - Z, a - z, 0 -9, _, $
+        * - cannot start with a digit (0 - 9)
+        * - cannot be a keyword\
+        *
+        * Valid Identifiers
+        * rollNum
+        * emp_Name
+        * itemNum123
+        * $empSalary
+        *
+        * Invalid Identifiers
+        * student name (space is not allowed)
+        * 123rollNum (cannot start with a digit)
+        * custNo# (# is not allowed)
+        * while (cannot be a keyword)
+        *
+        * Data Type
+        * Type of data the variable holds is called as data type
+        *
+        * Types
+        *   - primitive data types
+        *   - reference data types
+        *
+        * byte - 1 byte
+        * short - 2 bytes
+        * char - 2 bytes
+        * int - 4 bytes
+        * long - 8 bytes
+        * float - 4 bytes
+        * double - 8 bytes
+        * boolean - 1 bit
+        *
+        * declaration of variable - in order to allocate memory space for variable we need to declare the variable
+        *
+        * syntax - datatype var1, var2, varn;
+        *
+        *
+        **/

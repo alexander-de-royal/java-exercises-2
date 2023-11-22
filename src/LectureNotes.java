@@ -312,3 +312,109 @@
         *
         *
         **/
+
+//      Lecture 8
+
+        /*
+        *Points on Data Types
+        *   Default values are applicable only to the data members (declared within a class)
+        *   of the class not for local variables
+        *   Ex:
+        *   class Sample {
+        *       int m; // data member
+        *       void xxx()
+        *       {
+        *           int n=10; //local variable
+        *           SOP(n); //error - local variable n should be initialized
+        *       }
+        *       main()
+        *       {
+        *       Sample s = new Sample();
+        *       SOP(s.m);//
+        *   }
+        *   SOP() => to display messages or the value of variables or both
+        *
+        * - local variables need to be initialized
+        * - Memory allocation for reference data type is done during runtime using new operator
+        * - Default value for reference data type if null
+        *   Ex:
+        *       String s; // data memeber
+        *       SOP(s);null
+        *
+        * Type Casting
+        *   Converting from one primitive data type into another primitive data type or converting from one
+        *   reference data type into another reference data type is called as type casting
+        *
+        *   Types of casting
+        *   -implicit casting
+        *   -explicit casting
+        *
+        * Implicit Casting
+        * -Converting fom lower data type into higher data type
+        *   Ex:
+        *       int n = 100;
+        *       long x = n;
+        *           SOP(x); //100
+        *
+        *   Ex:
+        *       byte b = 35;
+        *       double d = b;
+        *       SOP(d); //35.0
+        *
+        *   Ex:
+        *       char c = 'A';
+        *       int n = c;
+        *       SOP(n); //65 - UNICODE OF CHAR 'A'
+        *
+        *   NOTE
+        *   - C/C++ supports ASCII Codes (256 symbols)
+        *   - Java/.Net/PHP/Python supports UNICODES (65536 symbols)
+        *   - ASCII codes are subset of UNICODES
+        *
+        * Explicit Casting
+        * - Converting higher data type into lower data type
+        *   Ex:
+        *       long x = 100;
+        *       int n = x;
+        *       int n = (int)x;
+        *       SOP(n);//100
+        *
+        *   Ex:
+        *       double d = 45.5;
+        *       short s = d; //error
+        *       short s = short(d);
+        *       SOP(c); //A
+        *
+        *   Ex:
+        *       float f = 3.14; error - since in Java a value with decimal point is double data type
+        *       float f = (float) 3.14;
+        *       or
+        *       float f = 3.14f;
+        *       or
+        *       float f = 3.14F;
+        *
+        * JShell tool
+        *   - JShell tool is added in Java 9 version
+        *   - JShell is an interactive tool to execute the Java statements
+        *
+        * To open JShell
+        * Open command prompt
+        * /exit = exit
+        *
+        * Operators
+        *   - Arithmetic Operators => + - * / %
+        *   - Relational Operators => >, =, !=
+        *   - Logical Operators => &&, ||, !
+        *   - Assignment Operators => =, +=, -=, /=, %=
+        *   - Conditional Operators => ? (ternary operator)
+        *   - Increment and Decrement Operators => ++, --
+        *       Ex:
+        *           int x = 5;
+        *           y = ++x;
+        *           SOP("y="+y); //6
+        *
+        *       Ex:
+        *           int x = 5;
+        *           y = x++;
+        *           SOP("y="+y) //5
+        * */

@@ -313,7 +313,7 @@
         *
         **/
 
-//      Lecture 8
+//      Lecture 7
 
         /*
         *Points on Data Types
@@ -417,4 +417,69 @@
         *           int x = 5;
         *           y = x++;
         *           SOP("y="+y) //5
+        * */
+
+
+//      Lecture 8
+
+        /*
+        * Scanner class
+        *  - it is predefined class added in Java 5 version
+        *  - it is used to read the values into the variables from keyboard during program execution (runtime)
+        *  - it is present in java.util package
+        *       - import java.util.scanner
+        *
+        * Scanner class methods
+        *   - nextInt() => used to read an int value
+        *   - nextLong() => used to read a long value
+        *   - nextFloat() => used to read a float value
+        *   - next() => used to read a String value without spaces
+        *   - nextLine() => used to read a String value with spaces
+        *
+        *   Ex:
+        *       int n = s.nextInt();
+        *       double d = s.nexDouble();
+        *       String name = s.next();
+        * class person
+        * {
+        *   int age;
+        *   void eat(){..}
+        * }
+        *
+        * Person p = new Person();
+        * p.age = 20;
+        * p.eat();
+        *
+        * Write a program (WAP) to find area of a rectangle
+        * Refer program Rectangle.java
+        *
+        * Control Statements
+        *  - These statements are used to control the flow of execution of program
+        *  - Types
+        *
+        *  - if statement / if .. else statement
+        *    - it is used to execute the set of statements when the condition is true
+        *    - if the condition is false it will execute the set of statements present in else part
+        *
+        *  - switch statement
+        *  - while loop
+        *  - do .. while loop
+        *  - for loop
+        *  - break and continue
+        *
+        * Syntax
+        *
+        * Points on if statement
+        *    - For if, else is optional
+        *    - For else, if is mandatory
+        *    - If {} are not used then it considers only on statement means for one statement using {} is optional
+        *
+        *   Ex:
+        *       int n1 = 10;
+        *       int n2 = 5;
+        *       if (n1 > n2)
+        *           SOP ("Big")
+        *       else
+        *           SOP ("Small")
+        *
         * */

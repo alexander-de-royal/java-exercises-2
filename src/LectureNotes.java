@@ -483,3 +483,83 @@
         *           SOP ("Small")
         *
         * */
+
+//      Lecture 9
+
+        /*
+        * Switch Statement
+        *   - It is used to choose an option among the given set of options
+        *   - It is mainly used for menu driven applications
+        *
+        * Syntax
+        * switch (expression)
+        * {
+        *   case opt1: statements; break;
+        *   case opt2: statements; break;
+        *   case optn: statements; break;
+        *   default: statements;
+        * }
+        *
+        * Points on switch statement
+        *   - If expression is not matching with anyone of the options then it will execute the statements present in default
+        *   - default is optional
+        *   - default can be anywhere in between the options
+        *   - break is used to come out of switch
+        *   - if break is not used then it will execute the statements present in other options until break
+        *   - expression should be of type int(byte/short/char)
+        *   - from Java 7 version, expression can be type String
+        *   - Ex:
+        *       String fruit = "apple";
+        *       switch (fruit)
+        *       {
+        *          case "apple": SOP("Apple"); break;
+        *          case "mango": SOP("Mango"); break;
+        *       }
+        *
+        * WAP to accept two numbers and display the following options/menu
+        *   - add
+        *   - subtract
+        *   - multiply
+        *   - divide
+        * Display the result based on the user choice
+        * Ex:
+        *   n1=10, n2=5, ch=1 => Result = 15
+        *   n1=10, n2=5, ch=3 => Result = 50
+        *   n1=10,
+        *
+        *  Loops
+        *   - loops are used to execute the set of statements repeatedly when the condition is true
+        *  Type
+        *   - while loop
+        *       - Syntax
+        *       while (condition)
+        *       {
+        *           st-1;
+        *           st-2;
+        *           ..
+        *           st-n;
+        *       }
+        *       ex:
+        *          1,2,3,4,5,6,7,8
+        *          int i = 1;
+        *           while (i <= 10)
+        *           {
+        *           SOP(i);
+        *           i++;
+        *           }
+        *
+        *  WAP to display even numbers form 1 to 100
+        *
+        *   - do while loop
+        *   - for loop
+        *
+        *  What is Java?
+        *
+        *   1. WAP to check whether the given char is vowel or consonant (switch)
+        *   2. WAP to find sum of even numbers and sum of odd numbers from 1 to 100
+        *       - int sumEven = 0; sumOdd = 0;
+        *   3. WAP to find smallest of given 10 numbers
+        *   4. WAP to find sum of digits of a given number
+        *       n = 1234 (1+2+3+4 = 10)
+        *
+        * */

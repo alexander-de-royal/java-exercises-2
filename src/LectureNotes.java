@@ -563,3 +563,51 @@
         *       n = 1234 (1+2+3+4 = 10)
         *
         * */
+
+//      Lecture 10
+
+        /*
+        *   Do.. while loop
+        *   Syntax
+        *   do {
+        *       st-1;
+        *       st-2;
+        *       ....
+        *       st-n;
+        *   }
+        *   while (condition)
+        *
+        *   - In case of while loop the condition is checked before the statements where as
+        *   - In case of do-- while loop the condition is checked after the statement
+        *
+        *   WAP to accept the current balance and display the following options/menu
+        *   1) deposit
+        *   2) Withdraw
+        *   3) Display balance
+        *   4) Exit
+        *   5) The menu should display repeatedly until the user chooses Exit
+        *
+        *   For loop
+        *   Syntax
+        *   for (initialization; condition; expression)
+        *   {
+        *       st-1;
+        *       st-2;
+        *       ...;
+        *       st-n;
+        *   }
+        *
+        *   WAP to find the factorial of a given number
+        *   refer to factorial.java
+        *
+        *   A static method can access only static members directly.
+        *
+        *   Break is used to come out of loop
+        *   Continue is used to continue the loop
+        *
+        *   WAP to accept the numbers from user until the user enters zero and find the sum of these numbers
+        *
+        *   WAP to display the following output
+        *   1 2 3 4 6 7 8 9 10
+        *   => Refer to code ContinueDemo
+        * */

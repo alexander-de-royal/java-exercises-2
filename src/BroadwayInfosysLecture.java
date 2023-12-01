@@ -96,3 +96,27 @@
     * - BigDecimal - => Refer to class BigNumbers
     *
     */
+
+//  Day 4
+
+    /*
+    * --------------- Control Statements -----------------
+    *
+    *  # use to implement conditions in program
+    *  # Types :
+    *   1) Selection (decision making)
+    *       a)  if
+    *       b)  if-else
+    *       c)  nested if-else
+    *       d)  if-else ladder
+    *       e)  switch
+    *   2) Looping (iteration)
+    *       a) for
+    *           a.1) Enhance loop forEach loop
+    *       b) while
+    *       c) do-while
+    *   3) Jumping (Branching)
+    *       a) break
+    *       b) continue
+    *       c) return
+    * */

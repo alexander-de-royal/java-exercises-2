@@ -610,4 +610,60 @@
         *   WAP to display the following output
         *   1 2 3 4 6 7 8 9 10
         *   => Refer to code ContinueDemo
+        *
+        * */
+
+//      Session - 11
+
+        /*
+        *  -------------- Arrays -----------------
+        *
+        *  An array is a collection of elements of similar data type and stored in
+        *  continuous memory locations
+        *
+        *  Declaration
+        *  Syntax
+        *   datatype[] arrayname;
+        *   or
+        *   datatype arrayname[];
+        *   or
+        *   datatype []arrayname;
+        *
+        *   []datatype arrayname; //error
+        *
+        *   Ex;
+        *   int[] n;
+        *   String names[];
+        *   double []salaries;
+        *
+        *   int n[5]; //error - Since in java arrays are reference data type
+        *
+        *   Note:
+        *   Memory allocation for reference data type is done during runtime using new operator
+        *
+        *   Memory Allocation
+        *   ------------------
+        *   int[] n = new int[5];
+        *
+        *   - Array elements are accessed using indexes and starts from 0
+        *
+        *   Array initialization
+        *   --------------------
+        *   int[] n = {10,20,30,40,50}
+        *
+        *   Length member
+        *   -------------------
+        *   It is used to give the size of the array
+        *
+        *   ex:
+        *       SOP("Size =" + n.length) // Size = 5
+        *
+        *   WAP to create an int array size and display the elements of the array
+        *   Refer to ArrayCreate
+        *
+        *   WAP to find sum of given array elements
+        *   Refer program ArraySum
+        *
+        *   WAP to search an element in the given array
+        *   Refer program ArraySearch
         * */

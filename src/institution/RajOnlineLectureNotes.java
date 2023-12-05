@@ -667,3 +667,100 @@
         *   WAP to search an element in the given array
         *   Refer program ArraySearch
         * */
+
+//      Lecture 12
+
+        /*
+        *  Java OOP
+        *   - OOP stands for Object-Oriented Programming
+        *
+        *  Class
+        *   - A class is a collection of data members and methods
+        *
+        *   Ex:
+        *       class Employee
+        *       {
+        *           //Data members
+        *               int empNum;
+        *               String empNum;
+        *               double empSalary;
+        *           //Methods
+        *               void setEmpDetails()
+        *           {
+        *               ....
+        *           }
+        *           void dispEmpDetails()
+        *           {
+        *               ....
+        *           }
+        *       }
+        *       empNum = 111; //error
+        *
+        *   Object
+        *   ------
+        *   An instance of a class is called as object
+        *
+        *   creating objects
+        *   ----------------
+        *   Syntax
+        *   ClassName  objName = new ClassName();
+        *
+        *   Ex:
+        *   Employee e = new Employee(); //e is an object of class Employee
+        *
+        *   The members (data members/methods) of the class are accessed using objects
+        *   with dot(.) operators
+        *
+        *   Ex:
+        *       e.empNum = 111;
+        *       e.empName = "Raj";
+        *       e.setEmpDetails();
+        *
+        *   - When a new object is created for a class then it allocates new memory for all data members
+        *       of the class and the values in data members are default values
+        *
+        *   - Default Values
+        *       ------------
+        *       byte, short, int, long => 0;
+        *       float, double => 0.0
+        *       char => ''
+        *       boolean => false
+        *       Reference Type (String) => null
+        *
+        *   - this reference
+        *   ------------------
+        *   1) this refers to the current object
+        *   2) this reference is generally used to differentiate data members of a class and arguments
+        *       of a method when the names are same
+        *
+        *   - Constructors
+        *   ----------------
+        *   - A constructor is a special method whose name is same as the classname
+        *       used to initialize the object and does not return anything not even void
+        *   Ex:
+        *   class Sample {
+        *       int i;
+        *       int j;
+        *       Sample() //constructor
+        *       {
+        *           i = 10;
+        *           j = 20;
+        *       }
+        *       void Sample(){} //not a constructor
+        *   }
+        *   Sample s = new Sample();
+        *   SOP(s.i + " " + s.j);
+        *
+        *   -Points on Constructors
+        *   ------------------------
+        *   - If a class does not contain a constructor, Java creates a default constructor
+        *       (no argument's constructor)
+        *
+        *   - if a class contains parameterized constructor, then it is the responsibility of the
+        *       programmer to create default constructor in the class
+        *
+        *   Ex:
+        *       class Sample {
+        *
+        *       }
+        * */

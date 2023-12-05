@@ -120,3 +120,26 @@
     *       b) continue
     *       c) return
     * */
+
+//  Day 6
+
+    /*
+    *   ------------- Array -------------------
+    *
+    *   # many values
+    *   # same data type
+    *   # collection of homogenous data
+    *   # collection / group of multiple values of same data type with fixed size
+    *   # contains duplicate data
+    *   # data stored on the basis of index (index start with 0)
+    *   # random access
+    *   # continuous memory allocation
+    *   # array is Object in Java
+    *
+    *   Syntax:
+    *   data_type array_name[] = new data_type[size]
+    *
+    *   float height[] = new float[5000]
+    *   String[] capCity = new String[80]
+    *   char []alpha = new char[26]
+    * */

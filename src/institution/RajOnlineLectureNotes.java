@@ -764,3 +764,27 @@
         *
         *       }
         * */
+
+//      Session 12
+
+        /*
+        *   Static Keyword
+        *   ---------------
+        *   - it can be used for data members, methods and inner classes (a class within a class)
+        *   - it cannot be used for top level classes (outer classes)
+        *   - it cannot be used for local variables (declared within a method)
+        *   Ex:
+        *       class MyClass
+        *       {
+        *           void xx()
+        *           {
+        *               // static int n; //error - local variable n cannot be static
+        *           }
+        *       }
+        *
+        *   - static members are accessible directly with the class without creating objects
+        *   - objects can also access static members
+        *   - a static method can access only other static members directly
+        *   - a static variable acts as a global variable within class means all objects of the class can access
+        *       static variable memory
+        * */
